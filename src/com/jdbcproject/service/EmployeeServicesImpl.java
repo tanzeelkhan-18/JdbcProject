@@ -1,16 +1,16 @@
-package com.corejavaexam.service;
+package com.jdbcproject.service;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.corejavaexam.dao.AddressDAO;
-import com.corejavaexam.dao.AddressDAOImpl;
-import com.corejavaexam.dao.EmployeeDAO;
-import com.corejavaexam.dao.EmployeeDAOImpl;
-import com.corejavaexam.entity.Address;
-import com.corejavaexam.entity.Employee;
-import com.corejavaexam.exceptions.DuplicatePhoneNumberException;
+import com.jdbcproject.dao.AddressDAO;
+import com.jdbcproject.dao.AddressDAOImpl;
+import com.jdbcproject.dao.EmployeeDAO;
+import com.jdbcproject.dao.EmployeeDAOImpl;
+import com.jdbcproject.entity.Address;
+import com.jdbcproject.entity.Employee;
+import com.jdbcproject.exceptions.DuplicatePhoneNumberException;
 
 public class EmployeeServicesImpl implements EmployeeServices {
 	

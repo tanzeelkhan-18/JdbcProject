@@ -1,8 +1,8 @@
-package com.corejavaexam.controller;
+package com.jdbcproject.controller;
 
 import java.sql.SQLException;
 
-import com.corejavaexam.service.EmployeeServicesImpl;
+import com.jdbcproject.service.EmployeeServicesImpl;
 
 public class EmployeeController {
 	public static void main(String[] args) throws SQLException {

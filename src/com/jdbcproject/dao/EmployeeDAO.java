@@ -1,11 +1,11 @@
-package com.corejavaexam.dao;
+package com.jdbcproject.dao;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.corejavaexam.entity.Address;
-import com.corejavaexam.entity.Employee;
-import com.corejavaexam.exceptions.DuplicatePhoneNumberException;
+import com.jdbcproject.entity.Address;
+import com.jdbcproject.entity.Employee;
+import com.jdbcproject.exceptions.DuplicatePhoneNumberException;
 
 public interface EmployeeDAO {
 	public boolean addEmp(Employee eb, Address localAb, Address permAb) throws SQLException, DuplicatePhoneNumberException;

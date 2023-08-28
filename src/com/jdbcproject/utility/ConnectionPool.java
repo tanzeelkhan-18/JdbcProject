@@ -1,4 +1,4 @@
-package com.corejavaexam.utility;
+package com.jdbcproject.utility;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

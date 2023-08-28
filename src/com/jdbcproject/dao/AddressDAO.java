@@ -1,9 +1,9 @@
-package com.corejavaexam.dao;
+package com.jdbcproject.dao;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.corejavaexam.entity.Address;
+import com.jdbcproject.entity.Address;
 
 public interface AddressDAO {
 	public boolean AddAddr(Address ab) throws SQLException;

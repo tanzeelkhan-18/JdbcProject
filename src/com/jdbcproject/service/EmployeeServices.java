@@ -1,4 +1,4 @@
-package com.corejavaexam.service;
+package com.jdbcproject.service;
 
 import java.sql.SQLException;
 

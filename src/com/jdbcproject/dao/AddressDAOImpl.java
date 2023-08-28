@@ -1,12 +1,12 @@
-package com.corejavaexam.dao;
+package com.jdbcproject.dao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.corejavaexam.entity.Address;
-import com.corejavaexam.utility.ConnectionPool;
+import com.jdbcproject.entity.Address;
+import com.jdbcproject.utility.ConnectionPool;
 
 public class AddressDAOImpl implements AddressDAO{
 

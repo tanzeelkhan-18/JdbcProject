@@ -1,4 +1,4 @@
-package com.corejavaexam.entity;
+package com.jdbcproject.entity;
 
 public class Address {
 	//Column names as member data from Address Table

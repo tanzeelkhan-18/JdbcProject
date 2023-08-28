@@ -1,4 +1,4 @@
-package com.corejavaexam.entity;
+package com.jdbcproject.entity;
 
 public class Employee {
 	//Column names as member data from EMP Table
